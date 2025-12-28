@@ -27,6 +27,9 @@ Zero disruption from day zero • Take charge end-to-end • Rule your freedom
 * **No Account Freezing**
   It's your gateway and your funds. Nobody can stop you.
 
+* **Setup PayRam MCP and accept crypto payments using llm agents**
+  Many use PayRam as an easy solution to create payment links in your agentic workflow, like n8n or MCP. Take advantage of quick integration by using PayRam MCP to integrate and ochestrate your crypto payments needs.
+
 
 > ⚠️ **Compliance note:** PayRam is infrastructure. You are responsible for KYC/AML/sanctions compliance in your jurisdiction.
 
