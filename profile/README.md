@@ -101,6 +101,7 @@ yarn dev  # Runs on http://localhost:3333/mcp
 | `explain_payram_concepts` | Answer questions about PayRam |
 
 **MCP Repo:** [github.com/PayRam/payram-helper-mcp-server](https://github.com/PayRam/payram-helper-mcp-server)
+**MCP Hosted service:** https://mcp.payram.com/mcp
 
 ---
 
@@ -218,7 +219,8 @@ Content-Type: application/json
 |----------|-----|
 | Website | https://payram.com |
 | Documentation | https://docs.payram.com |
-| MCP Server | https://github.com/PayRam/payram-helper-mcp-server | https://mcp.payram.com/mcp
+| MCP Repo | https://github.com/PayRam/payram-helper-mcp-server | 
+| MCP Server | https://mcp.payram.com/mcp |
 | Install Scripts | https://github.com/PayRam/payram-scripts |
 | Example Merchant | https://github.com/PayRam/merchant-mock |
 | TypeScript SDK | https://docs.payram.com/payram-sdk/typescript-javascript-sdk |
