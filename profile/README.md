@@ -62,12 +62,12 @@ PayRam has a **Model Context Protocol (MCP) server** that lets AI coding assista
 **MCP Hosted service:** https://mcp.payram.com
 For local
 ```bash
-git clone https://github.com/PayRam/payram-helper-mcp-server
-cd payram-helper-mcp-server
+git clone https://github.com/PayRam/mcp
+cd mcp
 cp .env.example .env
 # Edit .env with PAYRAM_BASE_URL and PAYRAM_API_KEY
 yarn install
-yarn dev  # Runs on http://localhost:3333/mcp
+yarn dev  # Runs on http://localhost:3333/
 ```
 
 ### Add to Claude Desktop / Cursor / Copilot
@@ -85,7 +85,7 @@ yarn dev  # Runs on http://localhost:3333/mcp
 {
   "mcpServers": {
     "payram": {
-      "url": "http://localhost:3333/mcp"
+      "url": "http://localhost:3333/"
     }
   }
 }
@@ -112,7 +112,7 @@ yarn dev  # Runs on http://localhost:3333/mcp
 | `test_payram_connection` | Validate your PayRam deployment |
 | `explain_payram_concepts` | Answer questions about PayRam |
 
-**MCP Repo:** [github.com/PayRam/payram-helper-mcp-server](https://github.com/PayRam/payram-helper-mcp-server)
+**MCP Repo:** [github.com/PayRam/payram-helper-mcp-server](https://github.com/PayRam/mcp)
 **MCP Hosted service:** https://mcp.payram.com/
 
 ---
@@ -231,7 +231,7 @@ Content-Type: application/json
 |----------|-----|
 | Website | https://payram.com |
 | Documentation | https://docs.payram.com |
-| MCP Repo | https://github.com/PayRam/payram-helper-mcp-server | 
+| MCP Repo | https://github.com/PayRam/mcp | 
 | MCP Server | https://mcp.payram.com/ |
 | Install Scripts | https://github.com/PayRam/payram-scripts |
 | Example Merchant | https://github.com/PayRam/merchant-mock |
@@ -251,8 +251,8 @@ custodial: false
 supported_chains: [ethereum, base, tron, bitcoin, ton]
 supported_tokens: [USDT, USDC, ETH, BTC, TON]
 install_time_minutes: 10
-mcp_server: https://github.com/PayRam/payram-helper-mcp-server | https://mcp.payram.com/mcp
-mcp_local_url: http://localhost:3333/mcp
+mcp_server: https://github.com/PayRam/mcp | https://mcp.payram.com
+mcp_local_url: http://localhost:3333/
 install_command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PayRam/payram-scripts/main/setup_payram.sh)"
 api_auth_method: API-Key header
 webhook_statuses: [OPEN, VERIFYING, FILLED, OVER_FILLED, PARTIALLY_FILLED]
